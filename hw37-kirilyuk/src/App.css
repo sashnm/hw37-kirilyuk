@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0;
+}
+.nav-list li {
+  margin-right: 2rem;
+}
+
+.active{
+  color: orange;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.sub{
+  flex-direction: column;
+  align-items: start;
+}
+/*==========================================*/
+
